@@ -1,0 +1,41 @@
+.input-search {
+    $btn-size: 2rem;
+    position: relative;
+    input {
+        color: currentColor;
+        border-width: 0 0 2px;
+        border-color: $gray;
+        padding-left: $btn-size;
+        font-weight: bold;
+        position: relative;
+    }
+
+    [type=submit] {
+        color: currentColor;
+        background-color: transparent;
+        border: none;
+        width: $btn-size;
+        transform: translateY(-50%);
+        @include position(absolute, 50% null null 0);
+
+    }
+
+    input,
+    [type=submit] {
+        &:focus {
+            outline: none;
+        }
+    }
+
+    @include placeholder {
+        color: currentColor;
+        font-weight: bold;
+    }
+}
+
+select {
+    border: none;
+    font-weight: bold;
+    color: currentColor;
+    @include padding(null 0.25rem);
+}

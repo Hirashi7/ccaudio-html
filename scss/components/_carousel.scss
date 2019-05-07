@@ -1,0 +1,48 @@
+.main-carousel {
+    img {
+        max-height: 600px;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+.carousel-caption{
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+    width: 50%;
+    text-align: left;
+    z-index: z-index(default);
+    h1{
+        font-size: 60px;
+        font-weight: lighter;
+    }
+    h3{
+        font-weight: normal;
+        line-height: 1.2rem;
+    }
+    &--right{
+        left: auto;
+        right: 0;
+        padding-right: 20%;
+    }
+    &--left{
+        left: 0;
+        right: auto;
+        padding-left: 20%;
+    }
+    &--dark{
+        color: $black;
+    }
+    .btn{
+        margin-top: 10px;
+    }
+}
+.carousel-control-next, .carousel-control-prev {
+    color: $black;
+    opacity: 0.5;
+    &:hover, &:focus, &:active{
+        opacity: 1;
+        color: currentColor;
+    }
+}

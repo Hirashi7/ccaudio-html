@@ -1,0 +1,8 @@
+@function z-index($index) {
+    @if(map-has-key($map: $z-index, $key: $index)){
+        @return map-get($map: $z-index, $key: $index);
+    }
+    @else{
+        @error("Not valid z-index provided");
+    }
+}

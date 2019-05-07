@@ -1,0 +1,23 @@
+.btn {
+    border-radius: $border-radius;
+    &-primary{
+        border-color: $primary;
+        color: $white;
+        background-color: $primary;
+        @include bs4-btn-hover {
+            background-color: $white;
+            border-color: currentColor;
+            color: $primary;
+        }
+    }
+    &-outline-primary {
+        color: $primary;
+        border-color: currentColor;
+        background-color: transparent;
+        @include bs4-btn-hover {
+            background-color: $primary;
+            border-color: $primary;
+            color: $white; 
+        }
+    }
+}

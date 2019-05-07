@@ -1,0 +1,97 @@
+.main-header {
+    position: relative;
+    z-index: z-index(default);
+}
+.top-bar {
+    $cart-icon-size: 1.25rem;
+    font-weight: bold;
+    color: $gray;
+    @include padding(1rem null);
+    &__brand{
+        text-align: center;
+        img{
+            width: 150px;
+        }
+    }
+    &__controls {
+        text-align: right;
+    }
+    &__cart {
+        position: relative;
+        .fa{
+            font-size: $cart-icon-size;
+        }
+    }
+    &__link {
+        &:hover{
+            color: $gray--dark;
+        }
+    }
+    .badge{
+        background-color: $gray--dark;
+        color: $white;
+        border-radius: 50%;
+        @include size(1rem);
+        @include position(absolute, 50% (-$cart-icon-size) null null);
+        transform: translateY(-50%);
+    }
+}
+.menu-bar {
+    $p: &;
+    text-align: center;
+    position: relative;
+    
+    &__item{
+        
+        > a {
+            text-transform: uppercase;
+            @include padding(null 0.75rem);
+            @include fa-icon(after, '\f078') {
+                padding-left: 0.25rem;
+                font-size: 0.75rem;
+            }
+            &:hover, &.active{
+                border-bottom: 2px solid $black;
+            }
+        }
+        &.active{
+            #{$p}__dropdown {
+                display: block;
+            }
+        }
+    }
+    @mixin menu-dropdown-border {
+        border: solid $gray;
+        border-width: 1px 0;
+    }
+    &__dropdown {
+        display: none;
+        text-align: left;
+        background-color: $white;
+        padding: 2rem 3rem;
+        line-height: 1.8;
+        @include menu-dropdown-border;
+        // transform: translateY(-100%);
+        &:before, &:after{
+            content: '';
+            width: calc((100vw - 1140px) / 2);
+            background-color: $white;
+            height: calc(100% + 2px);
+            display: block;
+            overflow: hidden;
+            @include menu-dropdown-border;
+        }
+        &:before{
+            @include position(absolute, -1px null null calc((100vw - 1140px) / -2));
+        }
+        &:after{
+            @include position(absolute, -1px calc((100vw - 1140px) / -2) null null);
+        }
+        @include position(absolute, 24px null null 0);
+        a{
+            &:hover {
+                opacity: $opacity;
+            }
+        }
+    }
+}

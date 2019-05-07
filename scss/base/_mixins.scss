@@ -1,0 +1,22 @@
+@mixin bs4-btn-hover {
+    &:hover, &:focus, &:not(:disabled):not(.disabled):active {
+        @content;
+    }
+}
+
+@mixin fa-icon($pseudo: before, $content: '') {
+    &:#{$pseudo} {
+        font-family: "Font Awesome 5 Free"; 
+        font-weight: 900; 
+        content: '#{$content}';
+        @content;
+      }
+}
+
+@mixin placeholder {
+    ::-webkit-input-placeholder {@content}
+    :-moz-placeholder           {@content}
+    ::-moz-placeholder          {@content}
+    :-ms-input-placeholder      {@content}  
+}
+

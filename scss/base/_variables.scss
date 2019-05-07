@@ -1,0 +1,30 @@
+// Colors
+$black: #000;
+$white: #fefefe;
+
+$gray: #999999;
+$gray--dark: #333;
+$gray--light: #d7d7d7;
+$gray--lighter: #ececec;
+
+
+$primary: $black;
+
+$opacity: 0.8;
+
+$border-radius: 0;
+
+$font-size: 14px;
+
+$font-size--small: 0.875rem;
+$font-size--large: 1.15rem;
+
+
+$z-index: (
+    below: -1,
+    default: 1,
+    top-bar: 10,
+    menu-bar: 11,
+    menu-bar-dropdown: 9,
+    top-info: 1000
+);

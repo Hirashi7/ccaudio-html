@@ -1,0 +1,30 @@
+html, body{
+    font-size: $font-size;
+}
+body {
+    height: 100%;
+    min-height: 400px;
+    min-width: 320px;
+    color: $gray--dark;
+}
+
+a {
+    color: currentColor;
+
+    &:hover {
+        text-decoration: none;
+        color: currentColor;
+    }
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.page-section {
+    @include padding(80px null);
+}
+
+.text-muted {
+    color: $gray;
+}

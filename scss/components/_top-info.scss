@@ -1,0 +1,23 @@
+body {
+    padding-top: 40px;
+}
+.top-info {
+    background-color: $black;
+    color: $white;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    @include position(fixed, 0 null null 0);
+    z-index: z-index(top-info);
+    &__content {
+        position: relative;
+        @include padding(0.5rem null);
+    }
+    &__close {
+        color: currentColor;
+        @include position(absolute, 50% 0 null null);
+        transform: translateY(-50%);
+        font-size: 2rem;
+        margin-top: -0.25rem;
+    }
+}
