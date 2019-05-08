@@ -1,0 +1,46 @@
+.main-footer{
+    background-color: $gray--lighter;
+    font-size: $font-size--large;
+    &__top-bar{
+        @include padding(2rem null);
+    }
+    &__bottom-bar{
+        margin-top: 2rem;
+        border-top: 2px solid $gray--light;
+        @include padding(1rem null);
+        color: $gray;
+        font-size: $font-size;
+        .list-inline {
+            margin-bottom: 0;
+        }
+        .list-inline-item {
+            @include padding(null 15px);
+            &:not(:last-child) {
+                border-right: 1px solid $gray--light;
+            }
+            
+        }
+    }
+    &__brand {
+        img{
+            width: 120px;
+        }
+    }
+    &__links {
+        text-align: left;
+        hr{
+            width: 30px;
+            border-width: 2px;
+            border-color: $black;
+            margin-left: 0;
+        }
+    }
+    &__social{
+        color: $black;
+    }
+    a{
+        &:hover{
+            opacity: $opacity;
+        }
+    }
+}

@@ -39,3 +39,15 @@ select {
     color: currentColor;
     @include padding(null 0.25rem);
 }
+
+#{$all-text-inputs} {
+    min-height: 34px;
+    padding: 0.25rem 0.5rem;
+    .form-inline &{
+        margin-right: 1rem;
+    }
+}
+.form-control, .form-control-lg, .form-control-sm {
+    box-shadow: none;
+    border-radius: $border-radius;
+}
