@@ -1,5 +1,6 @@
 .btn {
     border-radius: $border-radius;
+    text-transform: uppercase;
     &-primary{
         border-color: $primary;
         color: $white;

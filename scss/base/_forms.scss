@@ -1,6 +1,7 @@
 .input-search {
     $btn-size: 2rem;
     position: relative;
+    color: $gray;
     input {
         color: currentColor;
         border-width: 0 0 2px;
@@ -30,6 +31,18 @@
     @include placeholder {
         color: currentColor;
         font-weight: bold;
+    }
+    &--lg {
+        $input-size: 50%;
+        font-size: $font-size--large;
+        width: 100%;
+        @include padding(2rem null);
+        input{
+            width: $input-size;
+        }
+        [type=submit] {
+            left: (100% - $input-size) / 2;
+        }
     }
 }
 

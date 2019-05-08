@@ -1,24 +1,4 @@
-    <section class="page-section newsletter">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-6 text-center newsletter__text">
-            <h4>Dołącz do nas!</h4>
-            <p class="text-muted">
-            Zapisz się do naszego newslettera i zdobądź <strong>10% rabatu</strong> na następne zamówienie
-            </p>
-          </div>
-          <div class="col-6">
-            <form action="/cms.php" method="get" class="form form-inline">
-              <div class="form-group">
-                  <input type="email" name="newsletter-email" id="newsletter-email" placeholder="Wpisz adres e-mail" class="form-control-lg">
-                  <button type="submit" class="btn btn-primary btn-lg text-uppercase">Zapisz się</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="main-footer">
+<footer class="main-footer">
       <div class="container">
         <div class="row main-footer__top-bar">
           <div class="col-12">
