@@ -24,4 +24,4 @@
 17. [ ] Moje konto -> Lista zamówień
 18. [ ] Moje konto -> Śledzenie przesyłki
 19. [ ] Moje konto -> Przechowalnia
-20. [x] Ekran błędu 404: http://gwojcik.dev.arkonsoft.pl/register.php
+20. [x] Ekran błędu 404: http://gwojcik.dev.arkonsoft.pl/404.php
