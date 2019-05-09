@@ -8,9 +8,10 @@
             $('.top-info').slideUp();
         });
         // menu bar dropdown toggle
-        $('.menu-bar__item').on('click', function(e){
+        $('.menu-bar__item > a').on('click', function(e){
             e.preventDefault();
             $(this)
+            .parent()
             .toggleClass('active')
             .siblings().removeClass('active');
         });

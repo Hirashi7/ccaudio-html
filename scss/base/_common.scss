@@ -23,14 +23,30 @@ a {
 
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
     font-weight: bold;
+    letter-spacing: 2px;
 }
 
 h2 {
     font-weight: bold;
 }
+h6 {
+    text-transform: uppercase;
+}
 
 .page-section {
     @include padding(80px null);
+}
+.page-heading {
+    font-size: $font-size--large*2;
+    border-bottom: 1px solid $gray--light;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    // font-weight: normal;
+    text-transform: uppercase;
+    color: $black;
+}
+.page-content {
+    @include padding(2rem null);
 }
 
 .text-muted {

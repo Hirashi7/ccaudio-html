@@ -5,4 +5,7 @@
     &__text {
         @include padding(null 5rem);
     }
+    .form-control-lg {
+        min-height: 51px;
+    }
 }

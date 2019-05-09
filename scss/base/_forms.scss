@@ -64,3 +64,10 @@ select {
     box-shadow: none;
     border-radius: $border-radius;
 }
+
+label {
+    &:not(.form-check-label){
+        font-weight: bold;
+    }
+    
+}

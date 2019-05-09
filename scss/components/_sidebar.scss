@@ -1,0 +1,33 @@
+.sidebar {
+    @include padding(2rem null);
+    &__block {
+        padding: 1rem 2rem;
+        $p: &;
+        &--alt{
+            border: 1px solid $black;
+            #{$p}-title{
+                letter-spacing: 1px;
+            }
+            #{$p}-list {
+                line-height: 2rem;
+                padding-left: 0;
+            }
+            .fa {
+                color: $black;
+            }
+        }
+    }
+    &__block-title{
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    &__block-list {
+        padding-left: 1rem;
+        color: $gray;
+        a{
+            &:hover {
+               color: $gray--dark;
+            }
+        }
+    }
+}
