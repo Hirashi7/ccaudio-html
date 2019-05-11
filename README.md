@@ -21,7 +21,7 @@
 14. [ ] Moje konto -> Lista Adresów
 15. [x] Moje konto -> Edycja danych użytkownika
 16. [ ] Moje konto -> Edycja adresów
-17. [ ] Moje konto -> Lista zamówień
+17. [x] Moje konto -> Lista zamówień
 18. [ ] Moje konto -> Śledzenie przesyłki
 19. [ ] Moje konto -> Przechowalnia
 20. [x] Ekran błędu 404: http://gwojcik.dev.arkonsoft.pl/404.php

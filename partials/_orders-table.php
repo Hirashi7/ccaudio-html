@@ -35,7 +35,7 @@
         <tbody>
             <?php foreach ($orders as $order): ?>
                 <tr>
-                    <td scope="row"><?= $order['id']; ?></td>
+                    <td scope="row">#<?= $order['id']; ?></td>
                     <td><?= $order['date']; ?></td>
                     <td><?= $order['price']; ?></td>
                     <td><?= $order['payment']; ?></td>
