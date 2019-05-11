@@ -2,7 +2,7 @@
 <main class="register">
     <div class="container">
         <div class="row">
-            <?php require 'partials/_sidebar-account.php'; ?>
+            <?php require 'partials/_sidebar-identity.php'; ?>
             <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 page-content">
                 <h1 class="page-heading">Utwórz konto</h1>
                 <div class="row">

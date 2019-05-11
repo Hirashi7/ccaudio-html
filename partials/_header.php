@@ -1,3 +1,15 @@
+<?php session_start();
+  if(isset($_GET['loginEmail'])
+    && isset($_GET['loginPassword'])
+    && !empty($_GET['loginEmail'])
+    && !empty($_GET['loginPassword'])) {
+      $_SESSION['login'] = true;
+    }
+    if(isset($_GET['logout']) && !empty($_GET['logout'])){
+      $_SESSION['login'] = false;
+    }
+?>
+
 <!doctype html>
 <html lang="pl">
 
@@ -60,7 +72,13 @@
               <option value="GBP">GBP</option>
             </select>
           </li class="list-inline-item">
+          <?php if($_SESSION['login']): ?>
+          <li class="list-inline-item"><a href="/my-account.php" class="top-bar__link">Moje konto</a></li>
+          <li class="list-inline-item"><a href="/?logout=true" class="top-bar__link">Wyloguj sie</a></li>
+          <?php else:?>
           <li class="list-inline-item"><a href="/login.php" class="top-bar__link">Logowanie</a></li>
+          <?php endif;?>
+          
           <li class="list-inline-item"><a href="/cart.php" class="top-bar__cart top-bar__link"><i
                 class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="badge">0</span></a></li>
         </ul>

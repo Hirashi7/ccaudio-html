@@ -2,7 +2,7 @@
 <main class="login">
     <div class="container">
         <div class="row">
-            <?php require 'partials/_sidebar-account.php'; ?>
+            <?php require 'partials/_sidebar-identity.php'; ?>
             <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 page-content">
                 <h1 class="page-heading">Zaloguj się</h1>
                 <div class="row">
@@ -15,12 +15,12 @@
                             <div class="form-group">
                                 <div class="form-group">
                                   <label for="#loginEmail">Email</label>
-                                  <input type="email" class="form-control" name="loginEmail" id="loginEmail" aria-describedby="loginEmailHelp" placeholder="example@example.com">
+                                  <input type="email" class="form-control" name="loginEmail" id="loginEmail" aria-describedby="loginEmailHelp" placeholder="example@example.com" value="test@test.pl">
                                   <small id="loginEmailHelp" class="form-text text-muted">Wpisz swój adres e-mail</small>
                                 </div>
                                 <div class="form-group">
                                   <label for="#loginPassword">Hasło</label>
-                                  <input type="password" class="form-control" name="loginPassword" id="loginPassword" aria-describedby="loginPasswordHelp">
+                                  <input type="password" class="form-control" name="loginPassword" id="loginPassword" aria-describedby="loginPasswordHelp" value="12345">
                                   <small id="loginPasswordHelp" class="form-text text-muted">Wpisz swoje hasło</small>
                                 </div>
                                 <div class="form-check form-group">
