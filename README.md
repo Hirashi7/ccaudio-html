@@ -19,7 +19,7 @@
 12. [ ] Ekran przypominania hasła
 13. [x] Moje konto - dashboard
 14. [ ] Moje konto -> Lista Adresów
-15. [ ] Moje konto -> Edycja danych użytkownika
+15. [x] Moje konto -> Edycja danych użytkownika
 16. [ ] Moje konto -> Edycja adresów
 17. [ ] Moje konto -> Lista zamówień
 18. [ ] Moje konto -> Śledzenie przesyłki

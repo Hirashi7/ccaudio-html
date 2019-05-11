@@ -40,8 +40,6 @@
                             </div>
                             </div>
                             <div class="col-12">
-
-                            
                             <div class="form-check form-group text-muted">
                               <label class="form-check-label">
                                 <input type="checkbox" class="form-check-input" name="" id="" value="true">
