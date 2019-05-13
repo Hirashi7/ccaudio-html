@@ -18,7 +18,7 @@
 11. [x] Rejestracja http://gwojcik.dev.arkonsoft.pl/register.php
 12. [ ] Ekran przypominania hasła
 13. [x] Moje konto - dashboard
-14. [ ] Moje konto -> Lista Adresów
+14. [x] Moje konto -> Lista Adresów
 15. [x] Moje konto -> Edycja danych użytkownika
 16. [ ] Moje konto -> Edycja adresów
 17. [x] Moje konto -> Lista zamówień

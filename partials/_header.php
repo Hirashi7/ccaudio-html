@@ -72,7 +72,7 @@
               <option value="GBP">GBP</option>
             </select>
           </li class="list-inline-item">
-          <?php if($_SESSION['login']): ?>
+          <?php if(isset($_SESSION['login']) && $_SESSION['login']): ?>
           <li class="list-inline-item"><a href="/my-account.php" class="top-bar__link">Moje konto</a></li>
           <li class="list-inline-item"><a href="/?logout=true" class="top-bar__link">Wyloguj sie</a></li>
           <?php else:?>
