@@ -41,7 +41,7 @@
                     <td><?= $order['payment']; ?></td>
                     <td><span class="badge badge-<?= $order['status']['type']; ?>"><?= $order['status']['name']; ?></span></td>
                     <td>
-                    <a href="/order-details.php" class="btn btn-info btn-sm">
+                    <a href="#" onclick="alert('Ekran niedostępny')" class="btn btn-info btn-sm">
                         Szczegóły
                     </a>
                     </td>

@@ -2,6 +2,7 @@
     "use strict";
 
     $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
         // Top info close
         $('.top-info__close').on('click',function(e){
             e.preventDefault();
