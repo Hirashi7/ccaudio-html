@@ -16,5 +16,19 @@
             .toggleClass('active')
             .siblings().removeClass('active');
         });
+        
+        $('.cart_quantity').on('change',function(){
+            let quantity = parseInt($(this).val());
+            let unit_price = parseFloat($(this).data('price'));
+            let product_id = parseInt($(this).data('product'));
+            let total = unit_price*quantity;
+            total = total.toFixed(2);
+            $('.cart_total[data-product=' + product_id + ']').html(total + ' <span class="currency">PLN</span>');
+        });
+        $('.cart-remove-product').on('click', function (e) { 
+            e.preventDefault();
+            $(this).parent().parent('tr').remove();
+        });
+
     });
 })(jQuery);
