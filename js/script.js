@@ -18,12 +18,35 @@
         });
         
         $('.cart_quantity').on('change',function(){
-            let quantity = parseInt($(this).val());
-            let unit_price = parseFloat($(this).data('price'));
-            let product_id = parseInt($(this).data('product'));
-            let total = unit_price*quantity;
+            // let quantity = parseInt($(this).val());
+            // let unit_price = parseFloat($(this).data('price'));
+            // let product_id = parseInt($(this).data('product'));
+            // let total = unit_price*quantity;
+            // total = total.toFixed(2);
+            // $('.cart_total[data-product=' + product_id + ']').html(total + ' <span class="currency">PLN</span>');
+
+            // summary
+            let products_total = 0;
+            $.each($('.cart-table tbody tr'), function (indexInArray, valueOfElement) { 
+                let unit_price = parseFloat($('.unit_price', this).html());
+                let quantity = parseInt($('.cart_quantity', this).val());
+                let total = unit_price*quantity;
+                total = total.toFixed(2);
+                $('.cart_total', this).html(total);
+                products_total += unit_price*quantity;
+            });
+            products_total = products_total.toFixed(2)
+            $('.products_summary').html(products_total);
+
+            // tax
+            let tax = products_total * 0.23;
+            tax = tax.toFixed(2);
+            $('.tax_summary').html(tax);
+
+            // total
+            let total = parseFloat(products_total+20.00);
             total = total.toFixed(2);
-            $('.cart_total[data-product=' + product_id + ']').html(total + ' <span class="currency">PLN</span>');
+            $('.total').html(total);
         });
         $('.cart-remove-product').on('click', function (e) { 
             e.preventDefault();

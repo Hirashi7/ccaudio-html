@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="page-heading">Koszyk</h1>
+                    <h1 class="page-heading">Podsumowanie - Koszyk</h1>
                 </div>
                 <div class="col-8 col-xs-12">
                     <?php $products = [
@@ -53,7 +53,7 @@
                                 <td><a
                                         href="/product.php?product_id=<?= $product['id']; ?>"><strong><?= $product['name']; ?></strong></a>
                                 </td>
-                                <td><?= $product['unit_price']; ?> <span class="currency">PLN</span></td>
+                                <td><span class="unit_price"><?= $product['unit_price']; ?></span> <span class="currency">PLN</span></td>
                                 <td>
                                     <input min="1" type="number" max="<?= $product['stock']; ?>"
                                         class="cart_quantity cart-table__quantity" name="quantity"
@@ -64,7 +64,7 @@
                                 <td>
                                     <span class="cart_total"
                                         data-product="<?= $product['id']; ?>"><?= $product['unit_price'] * $product['quantity']; ?>
-                                        <span class="currency">PLN</span></span>
+                                        </span> <span class="currency">PLN</span>
                                 </td>
                                 <td>
                                     <button class="close cart-remove-product">&times;</a>
@@ -81,7 +81,7 @@
                         <table class="table">
                             <tbody>
                                 <tr>
-                                    <td>Produkty w sumie</td>
+                                    <td>Produkty w sumie (brutto)</td>
                                     <td>
                                             <?php
                                                 $total = 0; 
@@ -98,20 +98,20 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Wysyłka</td>
+                                    <td>Wysyłka (brutto)</td>
                                     <td><span class="delivery_summary" data-value="<?= $delivery; ?>"><?= $delivery; ?></span> <span class="currency">PLN</span></td>
                                 </tr>
                                 <tr>
-                                    <td>Podatek</td>
+                                    <td>Podatek (brutto)</td>
                                     <td><span class="tax_summary" data-value="<?= $tax; ?>"><?= $tax; ?></span> <span class="currency">PLN</span></td>
                                 </tr>
                                 <tr>
-                                    <td>Razem</td>
+                                    <td>Razem (brutto)</td>
                                     <td><span class="total" data-value="<?= $summary; ?>"><?= $summary; ?></span> <span class="currency">PLN</span></td>
                                 </tr>
                                 <tr>
                                     <td colspan="2">
-                                        <a href="#" class="button-summary btn btn-success btn-lg btn-block">Nastepny krok <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
+                                        <a href="/delivery.php" class="button-summary btn btn-success btn-lg btn-block">Nastepny krok <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
                                     </td>
                                 </tr>
                             </tbody>
