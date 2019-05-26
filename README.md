@@ -12,7 +12,7 @@
 5. [ ] Pojedynczy produkt
 6. [x] Checkout -> Koszyk: http://gwojcik.dev.arkonsoft.pl/cart.php
 7. [x] Checkout -> Wybór adresu + Wybór dostawcy: http://gwojcik.dev.arkonsoft.pl/shipping.php
-8. [ ] Checkout -> Wybór metody płatności
+8. [x] Checkout -> Wybór metody płatności: http://gwojcik.dev.arkonsoft.pl/payment.php
 9. [ ] Podsumowanie zamówienia
 10. [x] Logowanie: http://gwojcik.dev.arkonsoft.pl/login.php
 11. [x] Rejestracja http://gwojcik.dev.arkonsoft.pl/register.php

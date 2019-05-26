@@ -137,7 +137,7 @@ $products = [
                                     </tr>
                                     <tr>
                                         <td colspan="2">
-                                            <a href="/payment.php"
+                                            <a href="/thankyou.php"
                                                 class="button-summary btn btn-success btn-lg btn-block">Kupuję i płacę <i
                                                     class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
                                         </td>
