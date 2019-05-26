@@ -10,7 +10,7 @@
 3. [x] Ekran pojedynczej strony (CMS): http://gwojcik.dev.arkonsoft.pl/cms.php
 4. [ ] Kategoria
 5. [ ] Pojedynczy produkt
-6. [ ] Checkout -> Koszyk
+6. [x] Checkout -> Koszyk
 7. [ ] Checkout -> Wybór adresu + Wybór dostawcy
 8. [ ] Checkout -> Wybór metody płatności
 9. [ ] Podsumowanie zamówienia
