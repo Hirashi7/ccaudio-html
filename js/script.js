@@ -62,7 +62,7 @@
             $(this).toggleClass('active');
             triggerFakeLoading();
         });
-        $('.form-check-input').on('change', function () {
+        $('.form-check-input, #order, #count').on('change', function () {
             triggerFakeLoading();
         });
 
