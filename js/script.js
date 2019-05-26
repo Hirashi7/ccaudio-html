@@ -57,8 +57,20 @@
             $('.shipping-additional-address').slideDown();
             $(this).fadeOut()
             .siblings('hr').fadeOut();
-
+        });
+        $('.filter-color').on('click', function () {
+            $(this).toggleClass('active');
+            triggerFakeLoading();
+        });
+        $('.form-check-input').on('change', function () {
+            triggerFakeLoading();
         });
 
+        function triggerFakeLoading() {
+            $('.loading').addClass('active');
+            setTimeout(function(){
+                $('.loading').removeClass('active');
+            }, 1000);
+        }
     });
 })(jQuery);

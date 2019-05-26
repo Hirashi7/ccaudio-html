@@ -27,6 +27,7 @@
 </head>
 
 <body>
+<span class="loading"></span>
   <!-- TOP INFO -->
   <aside class="top-info">
     <div class="container">

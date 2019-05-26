@@ -1,0 +1,23 @@
+.loading {
+    background-color: rgba($white, 0.8);
+    background-image: url('/img/loading.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    pointer-events: none;
+    
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 0.3s;
+    &.active {
+        opacity: 1;
+        z-index: 99999;
+    }
+}
