@@ -80,7 +80,7 @@
           <?php endif;?>
           
           <li class="list-inline-item"><a href="/cart.php" class="top-bar__cart top-bar__link"><i
-                class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="badge">0</span></a></li>
+                class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="badge">2</span></a></li>
         </ul>
       </div>
     </div>

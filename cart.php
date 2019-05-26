@@ -111,7 +111,7 @@
                                 </tr>
                                 <tr>
                                     <td colspan="2">
-                                        <a href="/delivery.php" class="button-summary btn btn-success btn-lg btn-block">Nastepny krok <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
+                                        <a href="/shipping.php" class="button-summary btn btn-success btn-lg btn-block">Nastepny krok <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
                                     </td>
                                 </tr>
                             </tbody>

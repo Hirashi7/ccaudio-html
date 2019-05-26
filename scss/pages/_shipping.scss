@@ -1,0 +1,32 @@
+.shipping-address {
+    cursor: pointer;
+    &.active {
+        .card {
+            border-color: $brand-success;
+        }
+        .card-body {
+            background-color: rgba($brand-success, 0.2);
+        }
+    }
+}
+.shipping-additional-address {
+    display: none;
+    padding-top: 20px;
+}
+.shipping-method {
+    padding: 15px;
+    padding-left: 30px;
+    border: 1px solid $gray--light;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 15px;
+    margin-left: -15px;
+    &:hover {
+        background-color: $gray--lighter;
+    }
+}
+
+.shipping-summary {
+    position: sticky;
+    top: 100px;
+}

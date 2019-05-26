@@ -18,13 +18,6 @@
         });
         
         $('.cart_quantity').on('change',function(){
-            // let quantity = parseInt($(this).val());
-            // let unit_price = parseFloat($(this).data('price'));
-            // let product_id = parseInt($(this).data('product'));
-            // let total = unit_price*quantity;
-            // total = total.toFixed(2);
-            // $('.cart_total[data-product=' + product_id + ']').html(total + ' <span class="currency">PLN</span>');
-
             // summary
             let products_total = 0;
             $.each($('.cart-table tbody tr'), function (indexInArray, valueOfElement) { 
@@ -51,6 +44,20 @@
         $('.cart-remove-product').on('click', function (e) { 
             e.preventDefault();
             $(this).parent().parent('tr').remove();
+        });
+
+        //shipping-address
+        $('.shipping-address').on('click', function () {
+            $(this)
+            .toggleClass('active')
+            .siblings().removeClass('active');
+        });
+
+        $('.shipping-another-address').on('click', function () {
+            $('.shipping-additional-address').slideDown();
+            $(this).fadeOut()
+            .siblings('hr').fadeOut();
+
         });
 
     });
