@@ -8,7 +8,7 @@
 1. [x] Strona główna: http://gwojcik.dev.arkonsoft.pl/
 2. [x] Kontakt (formularz, mapa): http://gwojcik.dev.arkonsoft.pl/contact.php
 3. [x] Ekran pojedynczej strony (CMS): http://gwojcik.dev.arkonsoft.pl/cms.php
-4. [ ] Kategoria
+4. [x] Kategoria: http://gwojcik.dev.arkonsoft.pl/category.php
 5. [ ] Pojedynczy produkt
 6. [x] Checkout -> Koszyk: http://gwojcik.dev.arkonsoft.pl/cart.php
 7. [x] Checkout -> Wybór adresu + Wybór dostawcy: http://gwojcik.dev.arkonsoft.pl/shipping.php
