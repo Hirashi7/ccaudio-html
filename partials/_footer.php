@@ -39,7 +39,7 @@
             <p class="text-uppercase"><strong>Kontakt</strong></p>
             <hr>
             <ul class="list-unstyled">
-              <li><a href="/cms.php">Skontaktuj się z nami</a></li>
+              <li><a href="/contact.php">Skontaktuj się z nami</a></li>
               <li><a href="/cms.php">FAQ</a></li>
               <li><a href="/cms.php">Zwroty</a></li>
               <li><a href="/cms.php">Gwarancja</a></li>

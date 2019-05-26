@@ -6,11 +6,11 @@
 
 ### Lista ekranów
 1. [x] Strona główna: http://gwojcik.dev.arkonsoft.pl/
-2. [ ] Kontakt (formularz, mapa)
+2. [x] Kontakt (formularz, mapa): http://gwojcik.dev.arkonsoft.pl/contact.php
 3. [x] Ekran pojedynczej strony (CMS): http://gwojcik.dev.arkonsoft.pl/cms.php
 4. [ ] Kategoria
 5. [ ] Pojedynczy produkt
-6. [x] Checkout -> Koszyk
+6. [x] Checkout -> Koszyk: http://gwojcik.dev.arkonsoft.pl/cart.php
 7. [ ] Checkout -> Wybór adresu + Wybór dostawcy
 8. [ ] Checkout -> Wybór metody płatności
 9. [ ] Podsumowanie zamówienia
