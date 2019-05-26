@@ -16,7 +16,7 @@
 9. [x] Podsumowanie zamówienia: http://gwojcik.dev.arkonsoft.pl/thankyou.php
 10. [x] Logowanie: http://gwojcik.dev.arkonsoft.pl/login.php
 11. [x] Rejestracja http://gwojcik.dev.arkonsoft.pl/register.php
-12. [ ] Ekran przypominania hasła
+12. [x] Ekran przypominania hasła http://gwojcik.dev.arkonsoft.pl/reset-password.php
 13. [x] Moje konto - dashboard: http://gwojcik.dev.arkonsoft.pl/my-account.php
 14. [x] Moje konto -> Lista Adresów: http://gwojcik.dev.arkonsoft.pl/addresses.php
 15. [x] Moje konto -> Edycja danych użytkownika: http://gwojcik.dev.arkonsoft.pl/user-edit.php
