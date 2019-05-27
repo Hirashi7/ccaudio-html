@@ -65,6 +65,13 @@
         $('.form-check-input, #order, #count').on('change', function () {
             triggerFakeLoading();
         });
+        $('.product .button-submit').on('click', function () {
+            triggerFakeLoading();
+            $('.product-added').stop().slideDown();
+            setTimeout(function(){
+                $('.product-added').fadeOut();
+            }, 10000);
+        });
 
         function triggerFakeLoading() {
             $('.loading').addClass('active');

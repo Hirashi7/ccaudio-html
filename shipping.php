@@ -30,7 +30,7 @@ $products = [
                         <div class="col-12">
                             <h3>Wybierz adres</h3>
                         </div>
-                        <div class="col-xs-12 col-6 shipping-address">
+                        <div class="col-xs-12 col-6 shipping-address active">
                             <div class="card">
                                 <div class="card-body">
                                     <h4 class="card-title">Dom</h4>
