@@ -9,7 +9,7 @@
             </div>
         </div>
         <div class="row home-categories__wrapper">
-            <a class="col-12 col-4 text-center cat-item" href="/category.php">
+            <a class="col-12 col-sm-4 text-center cat-item" href="/category.php">
             <picture>
                 <source type="image/webp" srcset="img/category1-xs.webp">
                 <source type="image/jpeg" srcset="img/category1-xs.jpg">
@@ -18,7 +18,7 @@
                 <p class="text-uppercase cat-item__title">Słuchawki</p>
                 <p class="cat-item__desc">Urzadzenia wielofunkcyjne do szerokiego zastosowania</p>
             </a>
-            <a class="col-12 col-4 text-center cat-item" href="/category.php">
+            <a class="col-12 col-sm-4 text-center cat-item" href="/category.php">
             <picture>
                 <source type="image/webp" srcset="img/category2-xs.webp">
                 <source type="image/jpeg" srcset="img/category2-xs.jpg">
@@ -27,7 +27,7 @@
                 <p class="text-uppercase cat-item__title">Mikrofony</p>
                 <p class="cat-item__desc">Pojemnościowe oraz kierunkowe mikrofony w szerokiej gamie konfiguracji</p>
             </a>
-            <a class="col-12 col-4 text-center cat-item" href="/category.php">
+            <a class="col-12 col-sm-4 text-center cat-item" href="/category.php">
             <picture>
                 <source type="image/webp" srcset="img/category3-xs.webp">
                 <source type="image/jpeg" srcset="img/category3-xs.jpg">

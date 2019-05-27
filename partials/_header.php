@@ -109,7 +109,7 @@
           </li>
         </ul>
       </div>
-      <nav class="navbar navbar-expand-sm navbar-light bg-light col-12">
+      <nav class="navbar navbar-expand-sm navbar-light bg-light col-12 nav-mobile">
         <a class="navbar-brand" href="#"><strong>MENU</strong></a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
             aria-expanded="false" aria-label="Toggle navigation">

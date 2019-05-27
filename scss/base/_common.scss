@@ -52,12 +52,17 @@ h6 {
 .text-muted {
     color: $gray;
 }
-
+.nav-mobile {
+    display: none;
+}
 @media screen and (max-width: $mobile){
     body {
         font-size: 0.8rem;
     }
     main > .page-section {
         padding-top: 10px;
+    }
+    .nav-mobile {
+        display: flex;
     }
 }
