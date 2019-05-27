@@ -47,7 +47,7 @@
   <nav class="container main-header">
     <!-- TOP BAR -->
     <div class="row align-items-center top-bar">
-      <div class="col top-bar__search">
+      <div class="col-xs-12 col-sm-4 top-bar__search">
         <form action="/category.php" method="GET">
           <label for="#top-bar-search" class="input-search">
             <input type="search" placeholder="Wyszukaj" id="top-bar-search">
@@ -55,10 +55,10 @@
           </label>
         </form>
       </div>
-      <div class="col top-bar__brand">
+      <div class="col-sm-4 col-xs-12 top-bar__brand">
         <a href="/"><img src="img/logo.png" alt="CC Audio"></a>
       </div>
-      <div class="col top-bar__controls">
+      <div class="col-xs-12 col-sm-4 top-bar__controls">
         <ul class="list-inline">
           <li class="list-inline-item">
             <select name="lang" id="shop-lang" class="top-bar__link">
@@ -89,7 +89,7 @@
     <!-- /TOP-BAR -->
     <!-- NAVIGATION -->
     <div class="row justify-content-center menu-bar">
-      <div class="col-12">
+      <div class="col-12 d-none d-sm-block">
         <ul class="list-inline">
           <li class="list-inline-item menu-bar__item">
             <a href="#">Słuchawki</a>
@@ -109,6 +109,53 @@
           </li>
         </ul>
       </div>
+      <nav class="navbar navbar-expand-sm navbar-light bg-light col-12">
+        <a class="navbar-brand" href="#"><strong>MENU</strong></a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Słuchawki</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+              <a class="dropdown-item" href="/category.php">Biznes</a>
+                <a class="dropdown-item" href="/category.php">Dla Ciebie</a>
+                <a class="dropdown-item" href="/category.php">Konferencje</a>
+                <a class="dropdown-item" href="/category.php">Sieciowe</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mikrofony</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="/category.php">Biznes</a>
+                <a class="dropdown-item" href="/category.php">Dla Ciebie</a>
+                <a class="dropdown-item" href="/category.php">Konferencje</a>
+                <a class="dropdown-item" href="/category.php">Sieciowe</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Telefony</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+              <a class="dropdown-item" href="/category.php">Biznes</a>
+                <a class="dropdown-item" href="/category.php">Dla Ciebie</a>
+                <a class="dropdown-item" href="/category.php">Konferencje</a>
+                <a class="dropdown-item" href="/category.php">Sieciowe</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Marki</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+              <a class="dropdown-item" href="/category.php">Biznes</a>
+                <a class="dropdown-item" href="/category.php">Dla Ciebie</a>
+                <a class="dropdown-item" href="/category.php">Konferencje</a>
+                <a class="dropdown-item" href="/category.php">Sieciowe</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
     <!-- /NAVIGATION -->
   </nav>

@@ -3,7 +3,7 @@
     <section class="page-section">
         <div class="container">
             <div class="row">
-                <div class="col-7 col-xs-12">
+                <div class="col-sm-7 col-xs-12">
                     <div class="product-gallery">
                         <a data-fancybox="gallery" href="img/sluchawki2.jpg">
                             <picture>
@@ -39,7 +39,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-5 col-xs-12">
+                <div class="col-sm-5 col-xs-12">
                     <div class="alert alert-success product-added" role="alert">
                         <p class="d-flex justify-content-between align-items-center mb-0">
                             <span><strong>Polycom Y777</strong> dodany do koszyka</span>

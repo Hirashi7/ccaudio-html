@@ -25,7 +25,7 @@
         </div>
 
         <div class="row">
-          <div class="col-2 main-footer__links">
+          <div class="col-sm-2 col-6 main-footer__links">
             <p class="text-uppercase"><strong>Firma</strong></p>
             <hr>
             <ul class="list-unstyled">
@@ -35,7 +35,7 @@
               <li><a href="/cms.php">Znajdź nasze sklepy</a></li>
             </ul>
           </div>
-          <div class="col-2 main-footer__links">
+          <div class="col-sm-2 col-6 main-footer__links">
             <p class="text-uppercase"><strong>Kontakt</strong></p>
             <hr>
             <ul class="list-unstyled">
@@ -45,7 +45,7 @@
               <li><a href="/cms.php">Gwarancja</a></li>
             </ul>
           </div>
-          <div class="col-2 main-footer__links">
+          <div class="col-sm-2 col-6 main-footer__links">
             <p class="text-uppercase"><strong>Sklep</strong></p>
             <hr>
             <ul class="list-unstyled">

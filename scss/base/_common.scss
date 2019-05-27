@@ -52,3 +52,12 @@ h6 {
 .text-muted {
     color: $gray;
 }
+
+@media screen and (max-width: $mobile){
+    body {
+        font-size: 0.8rem;
+    }
+    main > .page-section {
+        padding-top: 10px;
+    }
+}

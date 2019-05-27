@@ -7,14 +7,23 @@
     font-weight: bold;
     color: $gray;
     @include padding(1rem null);
+    @media all and (max-width: $mobile){
+        padding-bottom: 0;
+    }
     &__brand{
         text-align: center;
         img{
             width: 150px;
+            @media screen and (max-width: $mobile){
+                width: 80px;
+            }
         }
     }
     &__controls {
         text-align: right;
+        @media screen and (max-width: $mobile){
+            text-align: center;
+        }
     }
     &__cart {
         position: relative;
@@ -35,11 +44,35 @@
         @include position(absolute, 50% (-$cart-icon-size) null null);
         transform: translateY(-50%);
     }
+    @media screen and (max-width: $mobile){
+        .input-search {
+            width: 100%;
+            input {
+                width: 100%;
+            }
+        }
+    }
 }
+
 .menu-bar {
     $p: &;
     text-align: center;
     position: relative;
+    @media screen and (max-width: $mobile){
+        .nav-link {
+            text-align: left !important;
+            font-size: 1.2rem;
+        }
+        .dropdown-menu {
+            background-color: transparent;
+            border: none;
+        }
+        .dropdown-item {
+            display: list-item;
+            list-style-type: square;
+            margin-left: 20px;
+        }
+    }
     
     &__item{
         

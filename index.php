@@ -9,7 +9,7 @@
             </div>
         </div>
         <div class="row home-categories__wrapper">
-            <a class="col-xs-12 col-4 text-center cat-item" href="/category.php">
+            <a class="col-12 col-4 text-center cat-item" href="/category.php">
             <picture>
                 <source type="image/webp" srcset="img/category1-xs.webp">
                 <source type="image/jpeg" srcset="img/category1-xs.jpg">
@@ -18,7 +18,7 @@
                 <p class="text-uppercase cat-item__title">Słuchawki</p>
                 <p class="cat-item__desc">Urzadzenia wielofunkcyjne do szerokiego zastosowania</p>
             </a>
-            <a class="col-xs-12 col-4 text-center cat-item" href="/category.php">
+            <a class="col-12 col-4 text-center cat-item" href="/category.php">
             <picture>
                 <source type="image/webp" srcset="img/category2-xs.webp">
                 <source type="image/jpeg" srcset="img/category2-xs.jpg">
@@ -27,7 +27,7 @@
                 <p class="text-uppercase cat-item__title">Mikrofony</p>
                 <p class="cat-item__desc">Pojemnościowe oraz kierunkowe mikrofony w szerokiej gamie konfiguracji</p>
             </a>
-            <a class="col-xs-12 col-4 text-center cat-item" href="/category.php">
+            <a class="col-12 col-4 text-center cat-item" href="/category.php">
             <picture>
                 <source type="image/webp" srcset="img/category3-xs.webp">
                 <source type="image/jpeg" srcset="img/category3-xs.jpg">
@@ -61,15 +61,15 @@
 <section class="page-section newsletter">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-6 text-center newsletter__text">
+          <div class="col-sm-6 col-12 text-center newsletter__text">
             <h4>Dołącz do nas!</h4>
             <p class="text-muted">
             Zapisz się do naszego newslettera i zdobądź <strong>10% rabatu</strong> na następne zamówienie
             </p>
           </div>
-          <div class="col-6">
+          <div class="col-sm-6 col-12">
             <form action="/cms.php" method="get" class="form form-inline">
-              <div class="form-group">
+              <div class="form-group d-sm-flex justify-sm-content-center">
                   <input type="email" name="newsletter-email" id="newsletter-email" placeholder="Wpisz adres e-mail" class="form-control-lg">
                   <button type="submit" class="btn btn-primary btn-lg text-uppercase">Zapisz się</button>
               </div>
